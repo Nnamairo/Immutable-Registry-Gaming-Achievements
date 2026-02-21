@@ -79,6 +79,11 @@ plan:
             path: contracts/identity-manager.clar
             clarity-version: 3
         - emulated-contract-publish:
+            contract-name: leaderboard
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/leaderboard.clar
+            clarity-version: 3
+        - emulated-contract-publish:
             contract-name: reputation-system
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/reputation-system.clar
