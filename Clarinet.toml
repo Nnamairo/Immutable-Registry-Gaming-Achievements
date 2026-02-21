@@ -14,6 +14,17 @@ epoch = '3.2'
 path = 'contracts/identity-manager.clar'
 clarity_version = 3
 epoch = 'latest'
+
+[contracts.reputation-system]
+path = 'contracts/reputation-system.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.escrow-manager]
+path = 'contracts/escrow-manager.clar'
+clarity_version = 3
+epoch = 'latest'
+
 [repl.analysis]
 passes = ['check_checker']
 
